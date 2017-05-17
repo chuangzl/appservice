@@ -20,7 +20,7 @@ urls = (
 
 app = web.application(urls, globals())
 
-class test:
+class proxy:
     def GET(selfs):
         #web.header('content-type','text/json')
         get = web.ctx.get
